@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif; 
+  text-align: center; 
+}
+
+/* Style for the convert button */
+#convertButton {
+  margin-top: 10px; 
+  padding: 8px 15px; 
+  background-color: #4CAF50; 
+  color: white; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  transition: background-color 0.3s; 
+}
+
+
+#convertButton:hover {
+  background-color: #45a049; 
+}
+
+#downloadLink {
+  margin-top: 20px; 
+  display: block; 
+  text-decoration: none; 
+  color: #007BFF; 
+  font-weight: bold; 
+  transition: color 0.3s;
+}
+
+
+#downloadLink:hover {
+  color: #0056b3;
+}
+
+  

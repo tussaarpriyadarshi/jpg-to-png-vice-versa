@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "Image Converter",
+    "version": "1.0",
+    "description": "Convert JPG/JPEG images to PNG format",
+    "permissions": ["storage"],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": "extension.png"
+    }
+  }
+  

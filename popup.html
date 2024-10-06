@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="popup.css" />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Converter</title>
+  </head>
+  <body>
+ 
+    <h1>Image Converter: JPG/JPEG to PNG and vice versa</h1>
+
+    
+    <input type="file" id="imageUpload" accept=".jpg, .jpeg, .png" />
+
+   
+    <label for="outputFormat">Convert to:</label>
+    <select id="outputFormat">
+      <option value="png">Convert to PNG</option>
+      <option value="jpg">Convert to JPG</option>
+    </select>
+
+    
+    <button id="convertButton">Convert Image</button>
+
+    
+    <a id="downloadLink" style="display:none;"></a>
+
+   
+    <script src="popup.js"></script>
+  </body>
+</html>
